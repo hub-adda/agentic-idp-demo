@@ -1,7 +1,12 @@
 {
-  "dependencies": ["."],
+  "dependencies": [
+    "."
+  ],
   "graphs": {
     "agent": "./src/react_agent/graph.py:graph"
+  },
+  "auth": {
+    "path": "agentic_idp_cyberark.auth:auth"
   },
   "env": ".env"
 }
